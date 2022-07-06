@@ -1,0 +1,538 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	background: #f6f2f2;
+}
+
+nav{
+	max-width: 1250px;
+	padding: 0 29%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	background: #313030;
+}
+nav a{
+	font-size: 14px;
+	padding: 35px 10px;
+	color: #e0e0e0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a:hover{
+	background: #ff3f40;
+	transition-duration: 1.5s;
+}
+
+.left{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 1250px;
+	margin: 90px auto;
+	padding-bottom: 130px;
+}
+.text_wrap{
+	width: 50%;
+	margin: 0 3%; 
+}
+h1{
+	text-transform: uppercase;
+}
+.main_text h1{
+	font-size: 60px;
+}
+h2{
+	font-size: 42px;
+	text-transform: uppercase;
+}
+p{
+	font-size: 16px;
+	text-align: justify;
+}
+.text_wrap .button{
+	max-width: 230px;
+	font-size: 18px;
+	background: #ff2d2d;
+	border-radius: 7px;
+	padding: 10px 60px;
+	text-align: center;
+}
+.video{
+	width: 50%;
+}
+iframe{
+	width: 100%;
+}
+.dou_text .button{
+	background: #ffffff;
+	color: #ff2d2d;
+	border: 2px solid #ff2d2d;
+	font-weight: bold;
+}
+.dou_icons{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.icon{
+	height: 50%;
+    width: 50%;
+    padding: 10px;
+}
+h3{
+	font-size: 24px;
+	text-align: center;
+}
+.feature{
+	text-align: center;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.feature p{
+	width: 40%;
+	text-align: center;
+}
+.border{
+	width: 10%;
+	border: 1px solid #ff2d2d;
+}
+.all{
+	display: flex;
+	text-transform: uppercase;
+	justify-content: space-around;
+	padding: 0 150px;
+}
+h4{
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.all h4:hover{
+	color: #ff3f40;
+	transition-duration: 1.5s;
+}
+.image{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 40px 0 130px 90;
+}
+.meet{
+	width: 40%;
+	margin-left: 90px;
+	margin-bottom: 20px;
+}
+.meet .border{
+	width: 30%;
+}
+.main_mark{
+	display: flex;
+}
+.two{
+	margin-right: 6%;
+	margin-left: 7.2%;
+}
+.two img{
+	width: 100%;
+}
+.mark{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 60%;
+}
+h5{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+}
+.social a{
+	font-size: 18px;
+	font-style: italic;
+	text-decoration: none;
+	color: black;
+	margin-right: 10px;
+}
+.mark_img{
+	display: flex;
+	justify-content: center;
+}
+.mark_img div{
+	margin-right: 10px;
+}
+.mark_img div img{
+	width: 100%;
+	}
+.mark p{
+	width: 96%;
+}
+.jue_img{
+	position: relative;
+}
+.jue{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 2%;
+	z-index: 2;
+	background: #141414;
+	opacity: 0.75;
+	color: #afafaf;
+	display: none;
+}
+.jue_img:hover .jue{
+	display: block;
+}
+
+.forma1{
+	background: #999999 url(../img/back.jpg) no-repeat;
+	background-size: 100%;
+	padding: 140px 0;
+	margin: 100px 0;
+}
+.forma1 h2,
+.forma1 p{
+	color: #ffffff;
+	text-align: center;	
+}
+.formail{
+	margin: 0, auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.email{
+	padding: 15px 100px 15px 15px;
+	border-radius: 7px;
+}
+.subscribe{
+	background: #ff2d2d;
+	text-align: center;
+	padding: 15px 30px;
+	border-radius: 7px;
+}
+h6{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.formcont{
+	display: flex;
+	margin-left: 90px;
+}
+.formfull{
+	width: 50%;
+}
+.formfull form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.namail{
+	background: #e5e5e5;
+	padding: 25px 0 25px 25px;
+	width: 45%;
+}
+.typesms{
+	background: #e5e5e5;
+	width: 100%;
+	padding: 25px 0 200px 25px;
+	margin: 40px 0;
+}
+.send{
+	background: #ff2d2d;
+	width: 100%;
+	padding: 25px;
+}
+.inname{
+	display: flex;
+	justify-content: space-between;
+}
+.continfo{
+	background: #2d2d2d;
+	width: 40%;
+	margin-left: 5%;
+	color: #afafaf;
+}
+.continfo h6,
+.continfo p{
+	margin-left: 15%;
+	margin-right: 5%;
+}
+input{
+	border: none;
+	border-radius: 7px;
+}
+footer{
+	background: #2d2d2d;
+	color: #afafaf;
+	display: flex;
+	justify-content: space-between;
+	padding: 45px 90px;
+	margin-top: 100px;
+}
+.sicons{
+	display: flex;
+}
+.sicons a{
+	margin: 0 2px;
+}
+
+
+
+
+@media screen and (max-width: 1100px){
+	.main_text h1{
+		font-size: 48px;
+	}
+	.all{
+		padding: 0 100px;
+	}
+	h4{
+		font-size: 20px
+	}
+	.mark_img{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 950px){
+	nav a{
+		font-size: 13px;
+		}
+	.left{
+		margin: 90px auto;
+		padding-bottom: 90px;
+	}
+	.main_text h1{
+		font-size: 36px;
+	}
+	h2{
+		font-size: 32px;
+	}
+	iframe{
+		height: 250px;
+		margin-top: 30px;
+	}
+	.all{
+		padding: 0 35px;
+	}
+	.all h4{
+		font-size: 18px
+	}
+	.two{
+		width: 25%;
+	}
+	.forma1{
+		margin: 75px 0;
+		background-size: 100% 100%;
+	}
+	.left,
+	.meet,
+	.formcont{
+		margin-left: 50px;
+	}
+	.namail{
+		padding: 15px 0 15px 15px;
+	}
+	.typesms{
+		padding: 15px 0 150px 15px;
+	}
+	.send{
+		padding: 15px;
+	}	
+	footer{
+		padding: 35px 50px;
+	}
+
+}
+
+@media screen and (max-width: 750px){
+	p{
+		width: 94%;
+	}
+	nav{
+		padding: 0 15%;
+		}
+	nav a{
+		padding: 20px 8px;
+		font-size: 12px;
+		}
+	.left{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 22px auto;
+		padding-bottom: 50px;
+	}
+	.text_wrap{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 94%;
+		margin: 0 3%; 
+	}
+	.dou_icons{
+		width: 94%;
+		margin: 10px 3%;
+		padding: 0;
+	}
+	.main_mark{
+		width: 94%;
+		margin: 10px 3%;
+		padding: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+	.two{
+		width: 35%;
+	}
+	.mark{
+		width: 90%;
+	}
+	.meet{
+		margin-left: 22px;
+	}
+	.video{
+		width: 80%;
+		margin: 10px 10%;
+		padding: 0;
+	}
+	h3, h5{
+		font-size: 20px;
+	}
+	.feature{
+		margin-bottom: 10px;
+	}
+	.all{
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	h4{
+		font-size: 16px;
+		padding: 0 10px;
+	}
+	.image{
+		margin: 10px 0 20px 0;
+	}
+	.forma1{
+		margin: 50px 0;	
+	}
+	.email{
+		padding: 10px 60px 10px 10px;
+	}
+	.subscribe{
+		padding: 10px 20px;
+	}
+	.formcont{
+		margin-left: 0;
+	}
+	.meet{
+		width: 55%;
+	}
+	.namail{
+		padding: 10px 0 10px 10px;
+	}
+	.typesms{
+		padding: 10px 0 100px 10px;
+	}
+	.send{
+		padding: 10px;
+	}	
+	.formcont{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.formfull{
+		width: 75%;
+		margin-bottom: 15px;
+	}
+	.continfo{
+		width: 75%;
+		margin: 0;
+	}
+	.continfo p{
+		width: 80%;
+	}
+	footer{
+		padding: 25px 22px;
+		margin-top: 50px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.sicons{
+		order: -1;
+	}
+	.mark h5{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 420px){
+	nav{
+		justify-content: space-between;
+	}
+	nav a{
+		margin: 0 auto;
+		padding: 8px 1px;
+		font-size: 10px;
+	}
+	.left{
+		margin: 20px auto;
+		padding-bottom: 10px;
+	}
+	.main_text h1{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	p{
+		font-size: 12px;
+	}
+	.feature p{
+		width: 75%;
+	}
+	.text_wrap .button{
+		font-size: 12px;
+	}
+	iframe{
+		width: 100%;
+		height: 200px;
+	}
+	h3, h5{
+	font-size: 16px;
+	}
+	.all{
+		flex-wrap: nowrap;
+		flex-direction: column;
+		align-items: center;
+	}
+	.social a{
+		font-size: 14px;
+	}
+	.forma1{
+		margin: 20px 0;
+		background-size: 100% 100%;
+	}
+	.email{
+	padding: 10px 40px 10px 10px;
+	}
+	.meet{
+		width: 75%;
+	}
+}
+
